@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">BMI</string>
+    <string name="lable_BMI_cal" translatable="false">BMI CALCULATOR</string>
+    <string name="lable_Weight" translatable="false">Nhập vào cân nặng (kg):</string>
+    <string name="lable_height" translatable="false">Nhập vào chiều cao (m):</string>
+    <string name="btn_cal" translatable="false">Tính BMI</string>
+    <string name="label_bmi_kq" translatable="false">Chỉ số BMI của bạn là:</string>
+    <string name="lable_BMI_ctgr" translatable="false">Chỉ số BMI của bạn thuộc loại</string>
+    <string name="bmi0" translatable="false">Ốm nhách</string>
+    <string name="bmi15" translatable="false">Ròm</string>
+    <string name="bmi16" translatable="false">Gầy</string>
+    <string name="bmi18_5" translatable="false">Cân đối</string>
+    <string name="bmi25" translatable="false">Múp</string>
+    <string name="bmi30" translatable="false">Mũm mĩm</string>
+    <string name="bmi35" translatable="false">Mập mạp</string>
+    <string name="bmi40" translatable="false">Béo phì</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Main2Activity">
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rmp0"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="0RPM" />
+
+        <RadioButton
+            android:id="@+id/rpm10"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="20dp"
+            android:text="10RPM" />
+
+        <RadioButton
+            android:id="@+id/rpm20"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="20dp"
+            android:text="20RPM" />
+
+        <RadioButton
+            android:id="@+id/RPM30"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="20dp"
+            android:text="30RPM" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="51dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="15" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekBar"
+            android:layout_alignEnd="@+id/seekBar"
+            android:layout_alignRight="@+id/seekBar"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="61dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:gravity="center"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Button
+            android:id="@+id/button_increase"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="76dp"
+            android:layout_toEndOf="@+id/button_decrease"
+            android:layout_toRightOf="@+id/button_decrease"
+            android:text=">>" />
+
+        <Button
+            android:id="@+id/button_decrease"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/button_increase"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="152dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginTop="0dp"
+            android:text="&lt;&lt;" />
+    </RelativeLayout>
+</LinearLayout>

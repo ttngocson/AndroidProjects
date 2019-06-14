@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ntu.edu.vn.ttngocson.thi_58133435.MainActivity">
+    <item
+        android:id="@+id/TCKH"
+        android:orderInCategory="100"
+        android:title="Tất cả khách hàng"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/KHTT"
+        android:orderInCategory="100"
+        android:title="Khách hàng thân thiết"
+        app:showAsAction="never" />
+</menu>

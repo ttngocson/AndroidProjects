@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">BMI</string>
+    <string name="bmi0" translatable="false">Very severely</string>
+    <string name="bmi15" translatable="false">Severely</string>
+    <string name="bmi16" translatable="false">Underweight</string>
+    <string name="bmi18_5" translatable="false">Normal</string>
+    <string name="bmi25" translatable="false">Overweight</string>
+    <string name="bmi30" translatable="false">Obese class I</string>
+    <string name="bmi35" translatable="false">Obese class II</string>
+    <string name="bmi40" translatable="false">Obese class III</string>
+    <string name="lable_BMI_cal" translatable="false">BMI CALCULATOR</string>
+    <string name="lable_Weight" translatable="false">Enter your weight (kg):</string>
+    <string name="lable_height" translatable="false">Enter your height (m):</string>
+    <string name="btn_cal" translatable="false">Cal BMI</string>
+    <string name="label_bmi_kq" translatable="false">"Your BMI: "</string>
+    <string name="lable_BMI_ctgr" translatable="false">BMI catagory</string>
+</resources>

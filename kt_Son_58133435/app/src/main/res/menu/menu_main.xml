@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ntu.edu.vn.ttngocson.kt_son_58133435.MainActivity">
+    <item
+        android:id="@+id/all"
+        android:title="Tất cả các môn" />
+    <item
+        android:id="@+id/notAll"
+        android:orderInCategory="100"
+        android:title="Môn chưa thi"
+        app:showAsAction="never" />
+</menu>
