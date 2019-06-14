@@ -90,10 +90,10 @@ public class ListKhachHangFragment extends Fragment {
             txtTenKH.setText(kh.getTenKH());
             txtSDT.setText(kh.getSoDT());
             boolean tym = kh.isKHTT();
-            /*if(tym == true)
-                imgTym
+            if(tym == true)
+                imgTym.setImageResource(R.drawable.ic_red);
             if(tym == false)
-                imgTym*/
+                imgTym.setImageResource(R.drawable.ic_blue);
         }
 
         @Override
