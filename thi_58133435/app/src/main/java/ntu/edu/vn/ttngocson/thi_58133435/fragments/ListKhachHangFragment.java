@@ -82,6 +82,7 @@ public class ListKhachHangFragment extends Fragment {
 
             txtSDT.setOnClickListener(this);
             imgEdit.setOnClickListener(this);
+            imgTym.setOnClickListener(this);
 
         }
 
@@ -110,6 +111,17 @@ public class ListKhachHangFragment extends Fragment {
                 bundle.putInt("Position", position);
                 intent.putExtras(bundle);
                 startActivityForResult(intent,1);
+            }
+            if(v.getId() == R.id.imgTym){
+                int position = KhachHangManager.getInstance().getKhachHangs().indexOf(this.kh);
+                if(KhachHangManager.getInstance().getKhachHangs().get(position).isKHTT() == true){
+                    KhachHangManager.getInstance().getKhachHangs().get(position).setKHTT(false);
+                    imgTym.setImageResource(R.drawable.ic_blue);
+                }
+                else if(KhachHangManager.getInstance().getKhachHangs().get(position).isKHTT() == false){
+                    KhachHangManager.getInstance().getKhachHangs().get(position).setKHTT(true);
+                    imgTym.setImageResource(R.drawable.ic_red);
+                }
             }
         }
     }
